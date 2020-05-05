@@ -15,7 +15,7 @@ if(NOT TARGET Cinder-FMOD)
 
     # Add include directories.
     # Notice that `cinderblock.xml` has `<includePath>src</includePath>`.
-    # So you need to set `../../src/` to include.
+    # So you need to set `../../src/` to include
     target_include_directories(Cinder-FMOD PUBLIC "${Cinder-FMOD_PROJECT_ROOT}/src" )
     target_include_directories(Cinder-FMOD SYSTEM BEFORE PUBLIC "${CINDER_PATH}/include" )
 
